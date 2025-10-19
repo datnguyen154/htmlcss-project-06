@@ -83,11 +83,147 @@
         />
         <meta name="theme-color" content="#ffffff" />
 
+        <!-- Embed font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+
         <!-- Reset CSS -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
 
         <!-- Style CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
     </head>
-    <body></body>
+    <body style="height: 5000px">
+        <!-- Header -->
+        <header class="header fixed">
+            <div class="container">
+                <div class="header__inner">
+                    <!-- Contact -->
+                    <div class="contact">
+                        <div class="contact__icon">
+                            <img src="./icon/mail-icon.svg" alt="" />
+                        </div>
+                        <div class="contact__mail">
+                            <a href="#!">hi@arif.interactive</a>
+                        </div>
+                    </div>
+
+                    <!-- Logo -->
+                    <div>
+                        <img class="logo" src="./img/boy.png" alt="" />
+                    </div>
+
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Projects</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Journey</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Service</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero__inner">
+                    <!-- Hero media -->
+                    <div class="hero-media">
+                        <div class="hero__img-wrap">
+                            <img
+                                src="./img/hero-media.png"
+                                alt=""
+                                class="hero__img"
+                            />
+                        </div>
+
+                        <!-- Decorators -->
+                        <svg
+                            class="hero__decor decor-1"
+                            width="115"
+                            height="131"
+                            viewBox="0 0 115 131"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect
+                                width="139.785"
+                                height="81.4414"
+                                rx="40.7207"
+                                transform="matrix(0.578224 -0.815878 0.794162 0.607706 -15.3159 97.6959)"
+                                fill="#ebe8fd"
+                            />
+                        </svg>
+                        <svg
+                            class="hero__decor decor-2"
+                            width="247"
+                            height="319"
+                            viewBox="0 0 247 319"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect
+                                width="369.464"
+                                height="81.4414"
+                                rx="40.7207"
+                                transform="matrix(0.578224 -0.815878 0.794162 0.607706 -15.5584 285.558)"
+                                fill="#ebe8fd"
+                            />
+                        </svg>
+
+                        <svg
+                            class="hero__decor decor-3"
+                            width="571"
+                            height="691"
+                            viewBox="0 0 571 691"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect
+                                width="929.458"
+                                height="81.4414"
+                                rx="40.7207"
+                                transform="matrix(0.578224 -0.815878 0.794162 0.607706 -15.373 742.073)"
+                                fill="#ebe8fd"
+                            />
+                        </svg>
+                        <svg
+                            class="hero__decor decor-4"
+                            width="234"
+                            height="300"
+                            viewBox="0 0 234 300"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <rect
+                                width="346.568"
+                                height="81.4414"
+                                rx="40.7207"
+                                transform="matrix(0.578224 -0.815878 0.794162 0.607706 -15.668 266.625)"
+                                fill="#ebe8fd"
+                            />
+                        </svg>
+                    </div>
+
+                    <!-- Hero content -->
+                    <section class="hero-content"></section>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

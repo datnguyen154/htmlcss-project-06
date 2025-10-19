@@ -5,3 +5,121 @@
 html {
     font-size: 62.5%;
 }
+
+body {
+    font-size: 1.8rem;
+    font-family: "DM Sans", sans-serif;
+    background: #fff;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: #fbfaff;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -10px;
+    z-index: 3;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.contact__mail a {
+    color: #080415;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.36;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+    flex-shrink: 0;
+}
+
+.navbar__list {
+    display: flex;
+    column-gap: 43px;
+}
+
+.navbar__link {
+    color: #51586a;
+}
+
+/* Hero */
+.hero {
+    background: #fbfaff;
+}
+
+.hero__inner {
+    padding-top: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-media {
+    display: flex;
+    position: relative;
+}
+
+.hero__img {
+    position: relative;
+    max-width: 514px;
+    min-height: 705px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.hero__decor {
+    position: absolute;
+}
+
+.decor-1 {
+    top: 20px;
+    left: 115px;
+}
+
+.decor-2 {
+    left: -38px;
+    top: 161px;
+}
+
+.decor-3{
+    
+}
