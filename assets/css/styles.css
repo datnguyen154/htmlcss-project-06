@@ -31,6 +31,16 @@ button {
     margin: 0 auto;
 }
 
+.btn {
+    --height: 62px;
+
+    min-width: 170px;
+    background: #5d3bee;
+    padding: 16px 37px;
+    color: #fdfdfd;
+    font-weight: 700;
+}
+
 /* Header */
 .header {
     background: #fbfaff;
@@ -98,7 +108,7 @@ button {
 
 .hero__img {
     position: relative;
-    max-width: 514px;
+    min-width: 514px;
     min-height: 705px;
     object-fit: cover;
     width: 100%;
@@ -111,8 +121,8 @@ button {
 }
 
 .decor-1 {
-    top: 20px;
-    left: 115px;
+    top: 4px;
+    left: 194px;
 }
 
 .decor-2 {
@@ -120,6 +130,59 @@ button {
     top: 161px;
 }
 
-.decor-3{
-    
+.decor-3 {
+    right: 34px;
+    bottom: 12px;
+}
+
+.decor-4 {
+    bottom: 209px;
+    right: 10px;
+}
+
+.hero__content {
+    margin-left: 156px;
+}
+
+.hero__heading {
+    color: #080415;
+    font-size: 8rem;
+    font-weight: 500;
+    line-height: 0.95;
+    margin-bottom: 25px;
+}
+
+.hero__desc {
+    color: #51586a;
+    line-height: 1.67;
+    margin-bottom: 55px;
+    width: 370px;
+}
+
+.hero__row {
+    margin-bottom: 104px;
+}
+
+.work {
+    color: #080415;
+    font-weight: 700;
+    margin-left: 27px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.hero__social {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.hero__direct {
+    color: #51586a;
+    font-size: 1.6rem;
+    font-weight: 500;
 }
