@@ -140,8 +140,29 @@ button {
     right: 10px;
 }
 
+.decor-5 {
+    bottom: -2px;
+    right: -25px;
+}
+
+.decor-6 {
+    bottom: -112px;
+    right: 15px;
+}
+
+.decor-7 {
+    bottom: -111px;
+    right: -110px;
+}
+
+.decor-8 {
+    bottom: -113px;
+    right: -130px;
+}
+
 .hero__content {
     margin-left: 156px;
+    position: relative;
 }
 
 .hero__heading {
@@ -185,4 +206,36 @@ button {
     color: #51586a;
     font-size: 1.6rem;
     font-weight: 500;
+}
+
+/* Clients */
+.client__inner {
+    margin-top: 100px;
+    display: flex;
+    column-gap: 105px;
+}
+
+.client__heading {
+    display: flex;
+    position: relative;
+    gap: 1.6rem;
+    color: #080415;
+    width: 253px;
+
+    font-size: 4.2rem;
+    font-weight: 500;
+    line-height: 1.19;
+}
+
+.client__heading::before {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: -99px;
+    display: inline-block;
+    width: 8.6rem;
+    height: 2px;
+    flex-shrink: 0;
+    background: #5d3bee;
+    margin-top: 0.7em;
 }
